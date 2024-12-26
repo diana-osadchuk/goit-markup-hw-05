@@ -569,5 +569,95 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <button type="button" class="modal-close">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form>
+          <div class="form-wrapper-content">
+            <label class="form-person-label" for="form-person">Name</label>
+            <div class="form-person-icon-wrapper">
+              <input
+                class="form-person-input"
+                type="text"
+                id="form-person"
+                name="form-person"
+                required
+              />
+              <svg class="form-person-icon" wight="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-wrapper-content">
+            <label class="form-person-label" for="form-person-phone"
+              >Phone</label
+            >
+            <div class="form-person-icon-wrapper">
+              <input
+                class="form-person-input"
+                type="text"
+                id="form-person-phone"
+                name="form-person-phone"
+                required
+              />
+              <svg class="form-person-icon" wight="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wrapper-content">
+            <label class="form-person-label" for="form-person-email"
+              >Email</label
+            >
+            <div class="form-person-icon-wrapper">
+              <input
+                class="form-person-input"
+                type="text"
+                id="form-person-email"
+                name="form-person-email"
+                required
+              />
+              <svg class="form-person-icon" wight="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wrapper-content">
+            <label class="form-person-label" for="form-person-comment"
+              >Comment</label
+            >
+            <textarea
+              class="form-person-comment"
+              id="form-person-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="checkbox-person"
+              required
+              id="form-person-checkbox"
+            />
+            <label class="form-person-checkbox" for="form-person-checkbox"
+              ><span class="castom-checkbox"
+                ><svg width="10" height="8" class="castom-checkbox-icon">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="blue"> Privacy Policy </a>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
