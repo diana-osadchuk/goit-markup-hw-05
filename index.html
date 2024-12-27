@@ -567,33 +567,33 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-email">
-        <p class="footer-subscribe-text">Subscribe</p>
-        <form class="form-footer-icon-wrapper">
-          <label class="footer_subscribe-label">
-          <input
-            class="form-footer-email-wrapper"
-            type="email"
-            id="form-footer-email"
-            name="form-footer-email"
-            placeholder="E-mail"
-          />
-          </label>
-          <button
-            class="form-button-subscribe"
-            type="submit"
-            name="email-type-button"
-          >
-            Subscribe
-            <svg class="form-subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </а>
-        </form>
+
+        <div class="footer-email">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="form-footer-icon-wrapper">
+            <label class="footer-subscribe-label">
+              <input
+                class="form-footer-email-wrapper"
+                type="email"
+                name="form-footer-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button
+              class="form-button-subscribe"
+              type="submit"
+              name="email-type-button"
+            >
+              Subscribe
+              <svg class="form-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
     <div class="backdrop is-open">
       <div class="modal">
         <p class="modal-text">Leave your contacts and we will call you back</p>
@@ -602,7 +602,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form>
+        <form class="modal-form">
           <div class="form-wrapper-content">
             <label class="form-person-label" for="user-name">Name</label>
             <div class="form-person-icon-wrapper">
@@ -626,7 +626,7 @@
             <div class="form-person-icon-wrapper">
               <input
                 class="form-person-input"
-                type="text"
+                type="tel"
                 id="form-person-phone"
                 name="form-person-phone"
                 required
@@ -643,7 +643,7 @@
             <div class="form-person-icon-wrapper">
               <input
                 class="form-person-input"
-                type="text"
+                type="email"
                 id="form-person-email"
                 name="form-person-email"
                 required
@@ -671,7 +671,7 @@
               id="user-privacy"
               value="true"
             />
-            <label class="user-privacy" for="user-privacy"
+            <label class="user-privacy" for="user-privacy">
               ><span class="castom-checkbox"
                 ><svg width="10" height="8" class="castom-checkbox-icon">
                   <use href="./images/icons.svg#icon-check"></use>
