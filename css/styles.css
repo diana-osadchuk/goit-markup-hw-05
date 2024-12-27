@@ -523,6 +523,7 @@ body {
 }
 .container-end {
   display: flex;
+  margin-left: 120px;
 
   align-items: baseline;
 }
@@ -532,6 +533,7 @@ body {
   margin-right: 120px;
 }
 .footer-icon-section {
+  margin-right: 80px;
 }
 
 .footer-text {
@@ -591,7 +593,7 @@ body {
 }
 
 .footer-email {
-  margin-left: 80px;
+  margin-right: 120px;
 }
 .footer-subscribe-text {
   font-weight: 500;
