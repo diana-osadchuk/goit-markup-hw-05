@@ -579,13 +579,13 @@
         </button>
         <form>
           <div class="form-wrapper-content">
-            <label class="form-person-label" for="form-person">Name</label>
+            <label class="form-person-label" for="user-name">Name</label>
             <div class="form-person-icon-wrapper">
               <input
                 class="form-person-input"
                 type="text"
-                id="form-person"
-                name="form-person"
+                id="user-name"
+                name="user-name"
                 required
               />
               <svg class="form-person-icon" width="18" height="24">
@@ -629,12 +629,11 @@
             </div>
           </div>
           <div class="form-wrapper-content">
-            <label class="form-person-label" for="form-person-comment"
-              >Comment</label
-            >
+            <label class="form-person-label" for="user-comment">Comment</label>
             <textarea
               class="form-person-comment"
-              id="form-person-comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -642,11 +641,11 @@
             <input
               class="checkbox visually-hidden"
               type="checkbox"
-              name="checkbox-person"
+              name="user-privacy"
               required
-              id="form-person-checkbox"
+              id="user-privacy"
             />
-            <label class="form-person-checkbox" for="form-person-checkbox"
+            <label class="user-privacy" for="user-privacy"
               ><span class="castom-checkbox"
                 ><svg width="10" height="8" class="castom-checkbox-icon">
                   <use href="./images/icons.svg#icon-check"></use>
