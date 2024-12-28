@@ -742,6 +742,9 @@ body {
 .form-wrapper-content {
   margin-bottom: 8px;
 }
+.form-wrapper-text {
+  margin-bottom: 16px;
+}
 .form-person-label {
   display: block;
   margin-bottom: 4px;
@@ -789,7 +792,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  margin-bottom: 16px;
   width: 100%;
   resize: none;
   min-height: 120px;
